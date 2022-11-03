@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* START HEADER */
+
+
+/* START NAVIGATION */
+
+.nav__menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav__menu li a{
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.nav__menu li a:hover{
+    text-decoration: underline;
+}
+
+/* END NAVIGATION */
+
+header{
+    background: #E5E5E5;
+}
+
+.header__box-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/header-background.png) no-repeat;
+}
+
+.header__title-1{
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.header__text-1{
+    margin-bottom: 100px;
+    max-width: 400px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000; 
+}
+
+.header__box-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__box-left img{
+    max-width: 100%;
+    padding: 0;
+    align-self: flex-end;
+}
+
+/* END HEADER */
+
+
+/* START MAIN */
+
+main, footer{
+    background: linear-gradient(180deg, #151515 0%, rgba(21, 21, 21, 0.95) 51.56%, #151515 100%);
+}
+
+main{
+    padding-top: 88px;
+}
+
+main p, footer p{
+    color: white;
+}
+
+.main__title-1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;    
+    line-height: 49px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 155px;
+}
+
+.main__title-2{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.main__box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.main__box-1 img{
+    max-width: 100%;
+    margin-bottom: 18px;
+}
+
+.main__box-2{
+    display: flex;
+}
+
+.main__box-3{
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 5px #000000);
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    min-width: 200px;
+    min-height: 80px;
+    margin-bottom: 55px;
+}
+
+.main__box-3 p {
+    margin: 0 !important;
+}
+
+.main__box-4{
+    border: 1px solid #8DC8AC !important;
+    color: #8DC8AC;
+    text-align: right;
+    margin-left: 20px;
+}
+
+.main__box-4 h4{
+    color: #8DC8AC;
+}
+
+.main__link-1{
+    color: white;
+}
+
+.main__link-1:hover{
+    color: white;
+}
+
+.main__text-1{
+    /*text-align: center;*/
+    text-align: left !important;
+    max-width: 85%;
+}
+
+.main__box-5{
+    /*margin-bottom: 227px;*/
+    margin-bottom : 100px;
+}
+
+.main__box-6{
+    margin-bottom: 212px;
+}
+
+/* END MAIN */
+
+
+/* START FOOTER */
+
+footer{
+    background: linear-gradient(180deg, #151515 0%, rgba(21, 21, 21, 0.95) 51.56%, #151515 100%);
+    padding: 35px 0;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border: white solid 1px;
+    border-radius: 7px;
+    padding: 13px 45px;
+}
+
+.footer__icons a i{
+    color: white;
+}
+
+.fa-instagram{
+    color: #8DC8AC !important;
+}
+
+.footer__icons a i:hover{
+    color: blue;
+}
+
+.footer__box-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+/* END FOOTER */
+
+
+@media (max-width:920px) {
+
+    nav{
+        margin-bottom: 60px;
+    }
+
+    .header__box-left img{
+        max-width: 600px;
+        align-self: center;
+        margin-bottom: 60px;
+    }
+
+    .row-2{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:576px) {
+
+    .header__box-left img{
+        max-width: 500px;
+    }
+
+    .footer__box-3{
+        margin-top: 50px;
+    }
+
+    .footer__box-1{
+        padding-left: 20px;
+    }
+
+    .footer__box-2{
+        margin-right: 20px;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+}

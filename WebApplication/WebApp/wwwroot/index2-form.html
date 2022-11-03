@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="nav__menu">
+                    <li><a href="index1-mainpage.html">Главная</a></li>
+                    <li><a href="index2-form.html">Анкета</a></li>
+                    <li><a href="index1-mainpage.html"><img src="img/nav-logo.png" alt="nav-logo"></a></li>
+                    <li><a href="index3-histories.html">Истории</a></li>
+                    <li><a href="index4-help.html">Помощь</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header__box-1">
+            <div class="row row-2">
+                <div class="header__box-left col-lg-7">
+                    <img src="img/header-img(2).png" alt="header-img">
+                </div>
+                <div class="header__box-right col-lg-5">
+                    <!-- <div class="header__box-1"> -->
+                    <h3 class="header__title-1">Проверь себя</h3>
+                    <!-- </div> -->
+                    <!-- <p class="header__text-1">На этой странице мы собрали истории людей которые смогли измениться</p> -->
+                    <ul class="header__menu">
+                        <li class="header__menu-1 class-1">5-10 минут</li>
+                        <li class="header__menu-2 class-1">Отвечайте честно</li>
+                        <li class="header__menu-3 class-1">Ваше мнение важно</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container container-2">
+            <form method="post" action="reply-index2">
+                <div class="main__box-1 main-box">
+                    <div class="main__box-3 main-box__label">
+                        <label>
+                            <img class="main__img-1" src="img/main__menu-img-1.png" alt="main__menu-img-1">
+                        </label>
+                        <label>
+                            <h4 class="main__title-1">Пользуетесь ли вы интернетом?</h4>
+                        </label>
+                    </div>
+                    <div class="main__box-4 main-box__label">
+                        <select size="5" multiple name="answer1">
+                            <option>Да</option>
+                            <option>Нет</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="main__box-1 main__box-5 main-box__margin">
+                    <div class="main__box-3">
+                        <label>
+                            <img class="main__img-1" src="img/main__menu-img-2.png" alt="main__menu-img-2">
+                        </label>
+                        <label>
+                            <h4 class="main__title-1">Как часто вы пользуетесь интернетом?</h4>
+                        </label>
+                    </div>
+                    <div class="main__box-4">
+                        <select multiple name="answer2">
+                            <option>Часто</option>
+                            <option>Редко</option>
+                            <option>Никогда</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="main__box-1 main__box-5">
+                    <div class="main__box-3">
+                        <label>
+                            <img class="main__img-1" src="img/main__menu-img-3.png" alt="main__menu-img-3">
+                        </label>
+                        <label>
+                            <h4 class="main__title-1 main__title-2">
+                                Какие сайты в интернете вы предпочитаете больше
+                                всего?
+                            </h4>
+                        </label>
+                    </div>
+                    <div class="main__box-4">
+                        <select multiple name="answer3">
+                            <option>Социальные сети</option>
+                            <option>Игровые\развлекательные сайты</option>
+                            <option>Поисковые сайты</option>
+                            <option>Другие</option>
+                        </select>
+                    </div>
+                </div>
+                <h2>Согласны ли вы со следующими утверждениями:</h2>
+                <div class="main__box-1 main-box">
+                    <div class="main__box-3 main-box__label">
+                        <label>
+                            <img class="main__img-1" src="img/main__menu-img-4.png" alt="main__menu-img-4">
+                        </label>
+                        <label>
+                            <h4 class="main__title-1">Это абсолютно нормально проводить в интернете 3-6 часов в день?</h4>
+                        </label>
+                    </div>
+                    <div class="main__box-4 main-box__label">
+                        <select multiple name="answer4">
+                            <option>Да</option>
+                            <option>Нет</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="main__box-1 main-box">
+                    <div class="main__box-3 main-box__label">
+                        <label>
+                            <img class="main__img-1" src="img/main__menu-img-5.png" alt="main__menu-img-5">
+                        </label>
+                        <label>
+                            <h4 class="main__title-1">Ты способен бросить игру или чат с кем-то в интернете, если тебя позовут гулять в кино или кафе?</h4>
+                        </label>
+                    </div>
+                    <div class="main__box-4 main-box__label">
+                        <select multiple name="answer5">
+                            <option>Да</option>
+                            <option>Нет</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="main__box-1 main-box">
+                    <div class="main__box-3 main-box__label">
+                        <label>
+                            <img class="main__img-1" src="img/main__menu-img-6.png" alt="main__menu-img-6">
+                        </label>
+                        <label>
+                            <h4 class="main__title-1">Ты откладываешь домашние дела из-за того, что находишься в Интернете?</h4>
+                        </label>
+                    </div>
+                    <div class="main__box-4 main-box__label">
+                        <select multiple name="answer6" class="margin1">
+                            <option>Да</option>
+                            <option>Нет</option>
+                        </select>
+                    </div>
+                    <div class="main__box-1 main-box">
+                        <div class="main__box-3 main-box__label">
+                            <label>
+                                <img class="main__img-1" src="img/main__menu-img-7.png" alt="main__menu-img-7">
+                            </label>
+                            <label>
+                                <h4 class="main__title-1">Интернет занимает большую часть твоего времени?</h4>
+                            </label>
+                        </div>
+                        <div class="main__box-4 main-box__label">
+                            <select multiple name="answer7" class="margin2">
+                                <option>Да</option>
+                                <option>Нет</option>
+                            </select>
+                            <div class="main__box-1 main-box">
+                                <div class="main__box-3 main-box__label">
+                                    <label>
+                                        <img class="main__img-1" src="img/main__menu-img-8.png" alt="main__menu-img-8">
+                                    </label>
+                                    <label>
+                                        <h4 class="main__title-1">Тебе легче в виртуальной жизни, чем в реальной?</h4>
+                                    </label>
+                                </div>
+                                <div class="main__box-4 main-box__label">
+                                    <select multiple name="answer8">
+                                        <option>Да</option>
+                                        <option>Нет</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="main__box-1 main-box">
+                                <div class="main__box-3 main-box__label">
+                                    <label><img class="main__img-1" src="img/main__menu-img-9.png" alt="main__menu-img-9"></label>
+                                    <label>
+                                        <h4 class="main__title-1">Ваш пол:</h4>
+                                    </label>
+                                </div>
+                                <div class="main__box-4 main-box__label">
+                                    <select multiple name="answer9">
+                                        <option>Мужской</option>
+                                        <option>Женский</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <input class="submit-button" type="submit" value="Отправить" />
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row footer__container">
+                <div class="footer__box-1 col-lg-4 col-sm-6">
+                    <a href="#"><img src="img/nav-logo.png" alt="nav-logo"></a>
+                </div>
+                <div class="footer__box-2 col-lg-4 col-sm-5">
+                    <h5>Горячая линия</h5>
+                    <p>+375(29)166-30-10</p>
+                </div>
+                <div class="footer__box-3 col-lg-4 col-sm-12">
+                    <div class="footer__icons">
+                        <a href="https://vk.com/vodden"><i class="fab fa-vk"></i></a>
+                        <a href="https://twitter.com/uCS3ca6bPcsp7re"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/voddden"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/danik.vodnev"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <p>2022 © all rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
