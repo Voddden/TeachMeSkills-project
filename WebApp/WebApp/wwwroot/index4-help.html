@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Помощь</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="nav__menu">
+                    <li><a href="index1-mainpage.html">Главная</a></li>
+                    <li><a href="index2-form.html">Анкета</a></li>
+                    <li><a href="index1-mainpage.html"><img src="img/nav-logo.png" alt="nav-logo"></a></li>
+                    <li><a href="index3-histories.html">Истории</a></li>
+                    <li><a href="index4-help.html">Помощь</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header__box">
+            <div class="row row-2">
+                <div class="header__box-left col-lg-6">
+                    <img src="img/header-img(4).png" alt="header-img">
+                </div>
+                <div class="header__box-right col-lg-6">
+                    <h3 class="header__title-1">Доступная помощь</h3>
+                    <p class="header__text-1">На этой странице мы собрали доступную психологическую помощь, которую вы можете получить на нашем сайте</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-2">
+            <h3 class="main__title main__title-margin-1">Выберите нужные варианты, чтобы мы смогли помочь</h3>
+            <form method="post" action="reply-index4">
+                <div class="main-box">
+                    <label>Тип помощи</label>
+                    <select name="answer1">
+                        <option value="-"></option>
+                        <option>Личная психотерапия</option>
+                        <option>Психотерапия в группе</option>
+                        <option>Беседа с психологом (онлайн)</option>
+                        <option>Беседа с психологом (офлайн)</option>
+                        <option>Беседа с духовным отцом</option>
+                        <option>Другое</option>
+                    </select>
+                </div>
+                <div class="main-box">
+                    <label>Выберите место</label>
+                    <select name="answer2">
+                        <option value="-"></option>
+                        <option>ул. К. Маркса, 33</option>
+                        <option>ул. Белградская, 87</option>
+                        <option>ул. Аэродромная, 12</option>
+                    </select>
+                </div>
+                <div class="main-box main-box-1">
+                    <label>Выберите стоимость</label>
+                    <select name="answer3">
+                        <option value="-"></option>
+                        <option>200$</option>
+                        <option>500$</option>
+                        <option>1000$</option>
+                    </select>
+                </div>
+                <input class="submit-button" type="submit" value="Отправить" />
+            </form>
+        </div>
+        <div class="main-box-4">
+            <div class="main-box-2">
+                <div class="main-box-3">
+                    <h3 class="main__title main__title-margin">Не можете определиться? Мы подберем сами</h3>
+                </div>
+                <button class="main-button"><a href="https://t.me/Vodden">Обратиться к нам</a></button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row footer__container">
+                <div class="footer__box-1 col-lg-4 col-sm-6">
+                    <a href="#"><img src="img/nav-logo.png" alt="nav-logo"></a>
+                </div>
+                <div class="footer__box-2 col-lg-4 col-sm-5">
+                    <h5>Горячая линия</h5>
+                    <p>+375(29)166-30-10</p>
+                </div>
+                <div class="footer__box-3 col-lg-4 col-sm-12">
+                    <div class="footer__icons">
+                        <a href="https://vk.com/vodden"><i class="fab fa-vk"></i></a>
+                        <a href="https://twitter.com/uCS3ca6bPcsp7re"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/voddden"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/danik.vodnev"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <p>2022 © all rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
